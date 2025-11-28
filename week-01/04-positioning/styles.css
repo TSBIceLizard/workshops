@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkgreen;
+}
+
+main {
+    position: absolute;
+    top:256px;
+}
+
+header {
+    text-align: center;
+    background-color: olive;
+    color: beige;
+    margin: 64px;
+}
+
+/* .titleclass {
+    top: 224px;
+    left: 256px;
+} */
+
+/* Changing the image resolution didn't seem to have an effect */
+
+.mainimages {
+    image-resolution: 50%;
+    position:relative;
+    left: 256px;
+}
+
+.imagesuffixfirst {
+    /* image-resolution: 50%; */
+    color:beige;
+    width: 256px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+    bottom: 32px;
+}
