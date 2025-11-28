@@ -1,0 +1,10 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: 0px;
+}
+
+header {
+    margin: 28px;
+    padding: 8px;
+}
