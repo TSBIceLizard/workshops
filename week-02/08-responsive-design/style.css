@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(12, 12, 12);
+  /* grid-template-columns: 1fr 8fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+  gap: 1rem;
+}
+
+.mainsection img {
+  max-width: 37.5%;
+}
+
+img {
+  max-width: 75%;
+}
+
+@media (min-width: 600px) {
+  .mainsection {
+    max-width: 192px;
+    gap: 1rem;
+  }
+}

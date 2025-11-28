@@ -1,0 +1,10 @@
+* {
+  margin: 16px;
+  padding: 4px;
+}
+
+#post-container {
+  margin: 8px;
+  padding: 4px;
+  box-sizing: 4px;
+}

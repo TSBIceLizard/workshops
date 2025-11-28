@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Grid Usage and Responsivity</title>
+  </head>
+  <body>
+    <section class="heading">
+      <header>
+        <h1 class="thetitle">CSS Grid Usage & Responsivity</h1>
+        <p>
+            <nav class="mainmenu">
+                <a href="#">News</a>
+                <a href="#">Buffer</a>
+                <a href="#">Links</a>
+            </nav>
+        </p>
+      </header>
+    </section>
+        <section class="responsivitytest1">Hi my guy, this is just a test to make sure I'm responsive! Try to resize the browser to arbitrary angles and we'll see what happens! Ultimately to be responsive, this text SHOULD wrap and resize itself based on the browser window dimensions!</section>
+    <main>
+      <section class="mainsection">
+      <img src="https://images2.imgbox.com/1c/72/TlvzDX8k_o.jpg" />
+      </section>
+      <p class="mainsectioncontent"><h2 class="responsivedesigntitle">What is responsive design?</h2></p>
+      <article class="article1">
+        <p>
+            Responsive design in web development refers to the adaptability of your website design and layout to a multitude of different screen aspects and resolutions. Desktop monitors are normally wider than they are taller, but things like phone display's have screens that are taller than they are wider.
+        </p>
+
+        <p>A website that has good responsive design is basically able to re-adjust itself (in some cases) to fit the size and aspect ratio of any screen and without the layout heinously (or hideously) breaking.
+        </p>
+        <p>
+            Check out <a href="https://gist.github.com/mavieth/e0c8fdcb72a30d85f57a">THIS</a> resource in conjunction with responsive grid media queries. It list common conventional resolutions broadly for different types of devices.
+        </p>
+      </article>
+    </main>
+    <section class="medquerysect"><h2>In extreme cases, we may need to invoke media queries</h2>
+        <article class="article2">
+            <p>
+                The @media rule in CSS is one extreme method to enforce responsivity in the occasion that the end user is accessing the website from a different device, such as a tablet or a smartphone. Instead of necessarily identifying that the user is on a smartphone, tablet or desktop directly, this rule will ascertain "what to do" when the user's display is less than X amount of pixels on the width or height vectors. 
+            </p>    
+            <p>
+                This rule will even affect desktop computers if the user changes the browser window shape to something relatively extreme that would mimic the proportions to that of a different device.
+            </p>
+        </article>
+</section>
+    <footer>
+      <h1>It was an assortment of structured text that was manufactured</h1>
+    </footer>
+  </body>
+</html>

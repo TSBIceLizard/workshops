@@ -1,0 +1,142 @@
+/* CSS Code */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 5% 25% 40% 25% 5%;
+  /* grid-template-columns: 1fr 5fr 4fr 4fr 5fr 1fr; */
+  grid-template-rows: 12em 48em 48em;
+  /* grid-column-gap: 16px; */
+  grid-row-gap: 12px;
+}
+
+.heading {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.thetitle {
+  font-size: 4em;
+  /* grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 4; */
+}
+
+/* Justify-content NEEDS flex to work! */
+.mainmenu {
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  font-size: clamp(1rem, 2.5rem, 2rem);
+}
+
+main {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.responsivitytest1 {
+  font-size: 2.25em;
+  padding: 12px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+}
+
+/* .mainsection {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.mainsection {
+  display: flex;
+  align-content: center;
+  height: auto;
+  justify-content: space-around;
+  object-position: center;
+}
+
+.mainsection img {
+  max-width: 512px;
+  max-height: auto;
+  width: 50%;
+  justify-content: space-around;
+  object-position: center;
+}
+
+.responsivedesigntitle {
+  padding: 8px;
+  text-align: center;
+}
+
+.article1 {
+  margin: 8px;
+  margin-top: 2rem;
+  padding: 8px;
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.medquerysect {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.article2 {
+  margin: 8px;
+  margin-top: 2rem;
+  padding: 8px;
+  text-align: left;
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  grid-row-start: 4;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+@media only screen and (max-width: 1280px) {
+  .thetitle {
+    font-size: 3em;
+  }
+
+  .responsivitytest1 {
+    font-size: 1.75rem;
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .thetitle {
+    font-size: 2em;
+  }
+
+  .responsivitytest1 {
+    font-size: 1.25rem;
+    padding: 1em;
+  }
+}
+
+/* End of CSS code */

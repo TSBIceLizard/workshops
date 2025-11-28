@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Media elements</title>
+  </head>
+  <body>
+    <h1>Media</h1>
+    <!-- <audio src="./media/audio/asound.wav" autoplay loop></audio>
+    <video src="./media/video/video.mp4" controls muted poster></video> -->
+    <main>
+
+        <section class="sourcingethics">
+        <h2>Ethicality Around sourcing third party images:</h2>
+        <p>Make sure that if you source an image or piece of content from elsewhere that you check the license and terms of using the piece of media. Typically, this will involve crediting the author but there are occasions (licensed music for example) where this is not enough.</p>
+        <p>I will list some examples of free libraries where media can be sourced below.</p>
+        <ul>
+            <li><a href="https://pixabay.com/">Pixabay</a> contains a multitude of different media types.</li>
+            <li><a href="https://sound-effects.bbcrewind.co.uk/">BBC Sounds</a> hosts the BBC's vast historical collection of sounds that were recorded over the years by their sound team.</li>
+            <li><a href="https://unsplash.com/">Unsplash</a> contains royalty free stock images.</li>
+        </ul>
+        <p>It's good practice to always look at the terms and conditions or licensing details about wherever you're sourcing content from!</p>
+
+        </section>
+        <section class="videoelementssect">
+        <h2>Video Element Attributes:</h2>
+        <p>
+            <ul>
+                <li>poster="" - Sets the video thumbnail.</li>
+                <li>muted - Auto mutes the sound.</li>
+                <li>autoplay - Plays when the page loads.</li>
+                <li>loop - Loops the content automatically when the video reaches the end.</li>
+            </ul>
+        </p>
+        <p>
+            <h2>An example of a video linked from Youtube. Music is by Joel Nielsen and is from the Black Mesa soundtrack.</h2>
+        </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oPHu47uAwVo?si=BBoJMlOAVPLYb-7u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section><h2>Audio Element Attributes:</h2>
+        <p>
+            <ul>
+                <li>controls - Renders a way to interact with the sound controls. Including Play, Progress, Mute and Change volume.</li>
+                <li>muted - Mutes the sound by default.</li>
+                <li>autoplay - Triggers the playing of the sound to start when the webpage loads.</li>
+                <li>loop - Repeats the sound when the sound has finished playing.</li>
+            </ul>
+        </p>
+        <p>Example of sourced audio which loops automatically</p>
+        <p><audio src="./media/audio/hum60.ogg" controls loop></audio></p>
+        <p>Sound originates from Unreal and is available to use. Author is Alexander Brandon and he doesn't mind when people use his content.</p>
+        <p>Example of auto muted sound</p>
+        <p><audio src="./media/audio/hum1.ogg" muted controls></audio></p></section>
+        <section>
+            <h2>Image Element Attributes:</h2>
+            <p>
+                <ul>
+                    <li>alt="" - A description of the image.</li>
+                    <li>width="number" - Controls the size in pixels of the width of the image. It's favourable to do this in CSS instead of HTML!</li>
+                    <li>height="number" - Same as above but affects height! Better to use CSS still.</li>
+                    <li>usemap="#myimagemap" - An image map can be used to select specific regions of an image. Very useful if you want certain areas to be clickable. <a href="https://www.w3schools.com/html/html_images_imagemap.asp">for more info!</a></li>
+                </ul>
+            </p>
+            <p>
+                An example of a .gif
+            </p>
+            <p>
+                <img src="./media/images/CSTOPlayerTunic.gif">
+            </p>
+        </section>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Optimisation</title>
+  </head>
+  <body>
+    <main>
+      <h1>Image Optimisation Workshop</h1>
+      <p>
+        If a website developer uses a 2000px + 2000px image in their website,
+        but simply reduces it's drawn width on the page either with the HTML or
+        CSS, that said image will continue to take the same amount of time and
+        resources to download from the website onto the end user's cache. It is
+        very much worth considering with raster graphic images be roughly the
+        same width and height as how they are displayed on the page.
+      </p>
+      <p>
+        Then in the other direction, if a developer chooses to use a very low
+        quality (or low resolution) raster graphic image and stretches it to a
+        huge size, the pixelation will be entirely and egregiously noticable.
+      </p>
+      <p>
+        Considering this, it's very important to keep the image near 100% its
+        size. Is it a huge image that has its width and breadth scaled down on
+        the page? Consider changing the resolution of the image file to a new
+        file. This can be done with programs like GIMP or Krita (free tools).
+        This will not really work for the other way however, if the developer's
+        image is too small in resolution to nicely fill a space, they should
+        consider re-creating the image or sourcing a new one at relatively the
+        same resolution as the space it's filling!
+      </p>
+      <h2>Image format pros and cons:</h2>
+      <p>
+        <ul>
+            <li>PNG: Portable Network Graphic. One of the most commonly used and advised image formats of the web. PNG typically sports a compact filesize in most cases and has lossless compression. It supports alpha transparency (holes in the image showing through to what's behind it). Suffix is .png</li>
+            <li>JPEG: Joint Photographic Expert Group. The most popular format on the web but features lossy compression, therfore this format creates alot of artifacting. Suffix is .jpg</li>
+            <li>GIF: Graphics Interchange Format. Gifs support frames of animation if configured to play an animation, but their drawback is their colour depth which is limited to 256 colours per frame. Suffix is .gif</li>
+            <li>WebP: A much newer raster Graphic format created by Google. WebP supports both lossy and lossless compression simultaneously aswel as alpha channel (transparency), including animation. Suffix is .webp
+            </li>
+        </ul>
+      </p>
+      <h2>Smallest PNG (356kb at 427w by 512h)</h2>
+      <img src="./images/CSTOUniqueBarbute2crop4.png" />
+      <h2>Very Small PNG (484kb at 512w by 614h)</h2>
+      <img src="./images/CSTOUniqueBarbute2crop3.png" />
+      <h2>Small PNG (970kb at 768w by 922h)</h2>
+      <img src="./images/CSTOUniqueBarbute2crop2.png" />
+      <h2>Slightly Smaller PNG (1.35MB at 960w by 1152h)</h2>
+      <img src="./images/CSTOUniqueBarbute2crop1.png" />
+      <h2>Original PNG (2.26MB at 1280w by 1536h)</h2>
+      <img src="./images/CSTOUniqueBarbute2.png" />
+    </main>
+  </body>
+</html>
