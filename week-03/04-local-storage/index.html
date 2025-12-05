@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer></script>
+    <title>Local Storage</title>
+  </head>
+  <body>
+    <h1>User Preferences</h1>
+    <form id="userprefsform">
+      <fieldset id="colourtheme">
+        <legend>Theme</legend>
+        <div>
+          <label for="theme">Theme:</label>
+          <select name="theme" id="theme" value="theme">
+            <option value="Dark" selected>Dark</option>
+            <option value="Light">Light</option>
+            <option value="Quirky">Quirky</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Font Sizing</legend>
+        <div>
+          <label for="font">Font Size:</label>
+          <select name="font" id="font" value="font">
+            <option id="font1v" value="font1" selected>
+              Smallest (default)
+            </option>
+            <option id="font2v" value="font2">Larger</option>
+            <option id="font3v" value="font3">Larger x2</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Contrast</legend>
+        <div>
+          <input
+            type="radio"
+            id="contrast1"
+            name="contrast"
+            value="contrast1"
+            selected
+          />
+          <label for="contrast">Default Contrast</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="contrast2"
+            name="contrast"
+            value="contrast2"
+          />
+          <label for="contrast">Enhanced Contrast</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="contrast3"
+            name="contrast"
+            value="contrast3"
+          />
+          <label for="contrast">Full Contrast</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Colourblind mode:</legend>
+        <div>
+          <input
+            type="radio"
+            id="colblind1"
+            name="colblind"
+            value="colblind1"
+            selected
+          />
+          <label for="colblind1">Off</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="colblind2"
+            name="colblind"
+            value="colblind2"
+          />
+          <label for="colblind2">Red-Green</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="colblind3"
+            name="colblind"
+            value="colblind3"
+          />
+          <label for="colblind3">Blue-Yellow</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="colblind4"
+            name="colblind"
+            value="colblind4"
+          />
+          <label for="colblind4">Monochromacy (complete colourblindness)</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Favourite Colour</legend>
+        <div>
+          <label for="colour">My Fave colour</label>
+          <input type="text" name="colour" id="colour" />
+        </div>
+      </fieldset>
+      <button type="submit">Save Preferences</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Forms and Validation</title>
+  </head>
+  <body>
+    <h1>Forms and Validation</h1>
+
+    <form id="userform">
+      <fieldset id="mainformfield">
+        <legend>Personal Info</legend>
+        <label for="username">Username:</label>
+        <input type="text" name="username" required />
+        <label for="email">Email:</label>
+        <input type="email" name="userEmail" id="email" required />
+        <label for="password">Password:</label>
+        <input type="password" name="userPassword" id="password" required />
+      </fieldset>
+      <fieldset>
+        <legend>Professional Info</legend>
+        <label for="jobrole">Job Role:</label>
+        <input
+          type="text"
+          name="jobRole"
+          id="jobrole"
+          placeholder="Job Role (optional)"
+        />
+        <label for="contract-type">Are you salaried or contracted?</label>
+        <select name="contractType" id="contract-type">
+          <option value="" disabled selected>Select a type</option>
+          <option value="1">Salaried</option>
+          <option value="2">Contractor</option>
+        </select>
+      </fieldset>
+    <h2>Tell us some cool things about you!</h2>
+    <div id="checkboxes">
+        <fieldset>
+          <legend>Hobbies and Interests</legend>
+            <div>
+            <input type="checkbox" name="sports" id="sports" value="sports" />
+            <label for="sports">Sports</label>
+            </div>
+            <div>
+            <input type="checkbox" name="computergames" id="computergames" value="computergames" />
+            <label for="computergames">Video or computer games</label>
+            </div>
+            <div>
+            <input type="checkbox" name="nature" id="nature" value="nature" />
+            <label for="nature">Going outdoors and exploring nature!</label>
+            </div>
+            <div>
+            <input type="checkbox" name="movies" id="movies" value="movies" />
+            <label for="movies">Watching movies</label>
+            </div>
+            <div>
+            <input type="checkbox" name="history" id="history" value="history"/>
+            <label for="history">Visiting historical sites and learning about history</label>
+            </div>
+            <div>
+            <input type="checkbox" name="computers" id="computers" value="computers"/>
+            <label for="computers">Tech!</label>
+            </div>
+            <div>
+            <input type="checkbox" name="socializing" id="socializing" value="socializing"/>
+            <label for="socializing">Socializing!</label>
+            </div>
+            <div>
+            <input type="checkbox" name="boardgames" id="board-games" value="boardgames"/>
+            <label for="board-games">Board and Card Games (Chess, Risk, Monopoly, etc)!</label>
+            </div>
+            <div>
+            <input type="checkbox" name="art" id="art" value="art"/>
+            <label for="art">Art!</label>
+            </div>
+            <div>
+            <input type="checkbox" name="motorsports" id="motorsports" value="motorsports"/>
+            <label for="motorsports">Motorsports</label>
+            </div>
+            <div>
+            <input type="checkbox" name="fashion" id="fashion" value="fashion"/>
+            <label for="fashion">Fashion and cosmetics</label>
+            </div>
+            <div>
+            <input type="checkbox" name="crafts" id="crafts" value="crafts"/>
+            <label for="crafts">Crafts</label>
+            </div>
+          </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+* {
+  margin: 8px;
+  padding: 8px;
+}
+
+body {
+  background-color: black;
+  color: beige;
+}
+
+#mainformfield {
+  margin: 0.75em;
+  padding: 0.25em;
+  font-size: 1.25em;
+}
+
+h2 {
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 2em;
+}
+
+#checkboxes {
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1.375em;
+}
+
+button {
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1.375em;
+}
