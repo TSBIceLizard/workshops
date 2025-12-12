@@ -1,0 +1,36 @@
+/* The Body element effects everything inside of it (UNLESS otherwise specified). */
+body {
+    background-color: darkolivegreen;
+    color:lightgray;
+}
+
+/* Even though the parentmost renderable element of the page is the body tag, any child tags in the hierarchy can override these global body rules. This is good if you would like the basic appearance rule of your page to default to a certain text colour, alignment or other property but have key elements lower down the tag hierarchy to be specified. */
+
+/* A class always begins with a . then the classname! */
+.headtext {
+    text-align:center;
+    font-size:75px;
+}
+
+/* For some reason I found that leaving the width as the default images width but changing the height instead changed the size of the whole image, keeping it's aspect ratio. I managed to fix this to get it to how I wanted by specifying the width! */
+.very-wide-bin {
+    width: 1280px;
+    height: 192px;
+}
+
+/* Never use numbers to start a classname.*/
+.onepbuttn {
+    background-color:red;
+    color:white;
+}
+
+/* The :hover suffix to a class or an id manages the way in which the webpage reacts to the viewers mouse cursor being hovered over it. */
+.onepbuttn:hover {
+    background-color:blueviolet;
+    color: green;
+}
+
+/* An id within css is always referenced by starting the line with a hashtag # followed directly by the name of the id with no spaces! */
+#twopbuttn {
+    background-color:orange;
+}

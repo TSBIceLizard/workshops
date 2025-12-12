@@ -1,0 +1,52 @@
+/* The * character is a unique rule to blanket target ALL elements on a page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* box-sizing: border-box keeps our content size consistent. Otherwise, the border size will be added as part of the content size */
+
+/* On a measurement value, if the px suffix isn't added to the value, it will default to pixels automatically */
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding: 12px;
+    margin: 32px;
+    border: 8px dashed darkgrey;
+}
+
+.box {
+    width: 768;
+    height: 1024;
+    border: 4px dashed black;
+    margin: 36px;
+    background: darkolivegreen;
+    padding: 20px;
+    color: white;
+}
+
+.secondbox {
+    width: 1024;
+    margin: 256px;
+    border: 6px dashed black;
+    padding: 128px;
+    background: olive;
+    color: white;
+    font-size: 48px;
+}
+
+/* .imagecentered {
+
+} */
+
+img {
+    width: 200;
+    height: 100;
+    padding: 20;
+    border: 20px dashed darkgray;
+    margin: 10;
+}
