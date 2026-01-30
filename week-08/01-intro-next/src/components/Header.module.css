@@ -1,0 +1,13 @@
+.main_title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+}
+
+.nav_bar {
+  margin: 0.25rem;
+  padding: 0.125rem;
+  display: flex;
+  justify-content: space-around;
+}

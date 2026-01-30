@@ -1,0 +1,17 @@
+/*component styles*/
+
+.h2 {
+  color: var(--fontColour);
+  background-color: rgb(32, 20, 20);
+}
+
+.rollercoasterForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.25rem;
+}
+
+.rollercoasterForm input {
+  background-color: rgb(92, 88, 52);
+  max-width: 480px;
+}

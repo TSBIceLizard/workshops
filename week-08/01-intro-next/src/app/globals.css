@@ -1,0 +1,40 @@
+/* Global styles for our whole app/website */
+@import "tailwindcss";
+
+/* The :root psuedo class selects the root element hierarchy of our app */
+/*in the :root, I will declare very 'global' styles that i want to be baseline consistent across my site/app*/
+/*CSS variables as seen below that start with --somename are available from here anywhere in our whole app*/
+:root {
+  --bgColour: #0f0f0f;
+  --foreground: #f3f3f3;
+  --accent: #7e8d9b;
+  --font: monospace;
+  --fontColour: #bed8e2;
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  margin: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background: var(--bgColour);
+  color: var(--fontColour);
+  font-family: var(--font);
+}
+
+/* media queries */
